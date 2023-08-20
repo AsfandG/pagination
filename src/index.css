@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+button {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.pagination {
+  text-align: center;
+  margin: 20px;
+}
+
+.pageNumber {
+  padding: 5px 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #008;
+  color: #fff;
+}
